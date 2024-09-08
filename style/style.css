@@ -1,0 +1,35 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+}
+
+header ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    border: 0.5px rgb(202, 169, 21) solid;
+    border-radius: 5%;
+    align-items: center;
+}
+
+.logo{
+    background-color: white;
+}
+
+.element {
+    font-size: 24px;
+}
+
+.logo img {
+    width: 100px;
+    background-color: white;
+}
